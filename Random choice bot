@@ -1,0 +1,26 @@
+import.random
+a = ["rock", "paper", "scissors"]
+print(random.choice(a))
+computer_choice = a
+user_choice = input("Enter rock, paper, or scissors:\n")
+if computer_choice == user_choice:
+    print("Its a TIE!")
+if computer_choice == "rock" and user_choice == "scissors":
+    print("You Lose! Try again!")
+if computer_choice == "scissors" and user_choice == "paper":
+    print("Scissors cut paper!")
+if computer_choice == "paper" and user_choice == "rock":
+    print("Stones may break your bones!")
+else:
+    print("You win!")
+
+
+
+
+
+
+
+
+
+
+
